@@ -1,0 +1,142 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font: 16px/1 '微软雅黑', Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333;
+}
+
+img {
+  display: inline-block;
+  border: 0;
+  vertical-align: top;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+input {
+  border: none;
+  appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+button {
+  border: 0;
+  background-color: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+select {
+  border: none;
+  outline: none;
+}
+
+fieldset {
+  border-style: none;
+}
+
+:-moz-placeholder {
+  color: #ddd;
+  opacity: 1;
+}
+::-moz-placeholder {
+  color: #ddd;
+  opacity: 1;
+}
+input:-ms-input-placeholder {
+  color: #ddd;
+  opacity: 1;
+}
+input::-webkit-input-placeholder {
+  color: #ddd;
+  opacity: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
